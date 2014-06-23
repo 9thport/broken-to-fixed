@@ -72,6 +72,11 @@ apache::vhost { 'php-welcome-application':
       rewrite_cond => ['%{REQUEST_URI} !(/data\.php|images)'],
       rewrite_rule => ['^(.*)$ /data.php?id=1 [L]'],
     },
+    {
+      comment      => 'Disable ability to use TRACE and TRACK methods',
+      rewrite_cond => ['%{REQUEST_METHOD} ^(TRACE|TRACK)'],
+      rewrite_rule => ['.* - [F]'],
+    },
  ],
 }
 
