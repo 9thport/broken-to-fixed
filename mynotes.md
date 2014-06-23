@@ -1,3 +1,16 @@
+# How to fix the broken host
+
+1. clone this repo
+2. cd into the main folder of the repo
+3. make sure vagrant is installed
+4. vagrant up
+5. vagrant ssh
+6. su
+7. yum -y install openssh-clients
+8. (logout to host)
+9. vagrant provision
+10. point browser to http://localhost:8080
+
 # What I did not fix
 
 When trying to fix the issue with trying to use scp to copy files, I could not figure out how to automate installing the openssh-clients package with vagrant. So I moved on to the next items and used the command "yum -y install openssh-clients"
