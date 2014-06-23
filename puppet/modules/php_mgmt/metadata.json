@@ -1,0 +1,22 @@
+{
+  "author": "Aaron Addleman",
+  "checksums": {
+    "README.markdown": "26f9973af54cb557ea5bec5953ede899",
+    "Modulefile": "dc8ea3897807117bc284b50e0eab6a50",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "templates/php.ini.erb": "743bf82817981bd01c75192414911086",
+    "manifests/init.pp": "6eb0d7097d905638279784f2215e7782",
+    "tests/init.pp": "8e81f6a8d119288221133e8226c4d074"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "aaddleman-php_mgmt",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

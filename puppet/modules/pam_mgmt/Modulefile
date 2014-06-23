@@ -1,0 +1,12 @@
+name    'aaddleman-pam_mgmt'
+version '0.1.0'
+source ''
+author 'Aaron Addleman'
+license ''
+summary ''
+description 'Installation of tempalte for pam.d/system-auth to do the following:
+- ensure there are no "nullok" entries (if they exist, they allow for accounts to have blank password)'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

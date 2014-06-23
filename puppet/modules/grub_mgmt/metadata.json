@@ -1,0 +1,26 @@
+{
+  "author": "Aaron Addleman",
+  "checksums": {
+    "README.markdown": "fb5b26962e47dde2a47b9e3a7fb6ecfe",
+    "Modulefile": "2a382076337095f047e77ef45291e3dd",
+    "manifests/init.pp": "6aae6343b8e8cc381786296100995a76",
+    "manifests/params.pp": "e42a791212f01db6db12f4b1405d3df5",
+    "manifests/apply.pp": "9b3649138251a870e1d6a5537c6e49bf",
+    "manifests/config.pp": "ec31adcfa4c898ec824a643df03b1125",
+    "tests/init.pp": "2ac03a8a15a04c177eec118810fce8bb"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.2.2"
+    }
+  ],
+  "description": "Ensure that the grub.conf file is configured as necessary for each node.\n\n\u003d\u003d\u003d\u003d\n\nExample usage of setting a password for a node taking default password:\n\nclass { \u0027grub_mgmt\u0027: }\n\nExample usage of setting a custom password using a supplied MD5 string:\n\nclass { \u0027grub_mgmt\u0027: \n  grub_md5_password \u003d\u003e \u0027put_md5_string_here\u0027,\n}",
+  "license": "GPL",
+  "name": "aaddleman-grub_mgmt",
+  "project_page": "",
+  "source": "",
+  "summary": "Ensure that the grub.conf file is configured as necessary for each node.",
+  "types": [],
+  "version": "0.1.0"
+}

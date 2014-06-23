@@ -1,0 +1,11 @@
+name    'aaddleman-inittab'
+version '0.1.0'
+source ''
+author 'Aaron Addleman'
+license ''
+summary ''
+description 'Configure and take control of the inittab file.'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

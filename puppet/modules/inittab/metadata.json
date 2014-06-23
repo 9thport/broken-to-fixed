@@ -1,0 +1,22 @@
+{
+  "author": "Aaron Addleman",
+  "checksums": {
+    "README.markdown": "f6d08d752a3ab53056adcad5af4fa6cf",
+    "Modulefile": "9b1f2fb00aaf66833fc6b77e281f4a5f",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "7f64193609bb6f2adc79764b74c97ee8",
+    "templates/redhat6.erb": "a32232c945c234fc1b29e156c39c99b8",
+    "tests/init.pp": "52f07bda6a303a59332d8ec4c2f0a6f7"
+  },
+  "dependencies": [],
+  "description": "Configure and take control of the inittab file.",
+  "license": "",
+  "name": "aaddleman-inittab",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

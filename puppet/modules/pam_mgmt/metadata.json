@@ -1,0 +1,22 @@
+{
+  "author": "Aaron Addleman",
+  "checksums": {
+    "README.markdown": "ddc79bc20e4a8991c3871681a0a1fe62",
+    "templates/system_auth-ac.erb": "ec8df99749a29f48674d9b7101557107",
+    "Modulefile": "091223be5a21f03e691484a8d9f1e1a8",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "cfe083806eb80f31f9f8345bc07a6cb4",
+    "tests/init.pp": "cf7aed72375a82b786f3f4cecbeffd0e"
+  },
+  "dependencies": [],
+  "description": "Installation of tempalte for pam.d/system-auth to do the following:\n- ensure there are no \"nullok\" entries (if they exist, they allow for accounts to have blank password)",
+  "license": "",
+  "name": "aaddleman-pam_mgmt",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

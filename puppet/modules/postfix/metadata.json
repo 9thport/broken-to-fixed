@@ -1,0 +1,22 @@
+{
+  "author": "Aaron Addleman",
+  "checksums": {
+    "README.markdown": "f8eb6938ddd2ba7a0e81488dc4b6fe54",
+    "Modulefile": "edc39672cc8187b1b615f2e6b3c1010a",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "6dc581b5da962cada92b348a660321c5",
+    "templates/main.cf.erb": "af8fa823d75bd67eeab65d4968fd6aea",
+    "tests/init.pp": "1dfb2eb3d2e04f3446c1eb98ef94ebc6"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "aaddleman-postfix",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

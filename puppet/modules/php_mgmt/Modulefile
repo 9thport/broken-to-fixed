@@ -1,0 +1,11 @@
+name    'aaddleman-php_mgmt'
+version '0.1.0'
+source ''
+author 'Aaron Addleman'
+license ''
+summary ''
+description 'Control of the php.ini file and other settings'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

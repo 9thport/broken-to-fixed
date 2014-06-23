@@ -1,0 +1,11 @@
+name    'aaddleman-postfix'
+version '0.1.0'
+source ''
+author 'Aaron Addleman'
+license ''
+summary ''
+description 'Controll of the various postfix files (eg. /etc/postfix/main.cf )'
+project_page ''
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

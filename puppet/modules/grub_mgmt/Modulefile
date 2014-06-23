@@ -1,0 +1,24 @@
+name    'aaddleman-grub_mgmt'
+version '0.1.0'
+source ''
+author 'Aaron Addleman'
+license 'GPL'
+summary 'Ensure that the grub.conf file is configured as necessary for each node.'
+description 'Ensure that the grub.conf file is configured as necessary for each node.
+
+====
+
+Example usage of setting a password for a node taking default password:
+
+class { \'grub_mgmt\': }
+
+Example usage of setting a custom password using a supplied MD5 string:
+
+class { \'grub_mgmt\': 
+  grub_md5_password => \'put_md5_string_here\',
+}
+'
+project_page ''
+
+
+dependency 'puppetlabs/stdlib', '4.2.2'
